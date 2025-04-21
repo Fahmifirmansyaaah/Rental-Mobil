@@ -1,0 +1,42 @@
+.container {
+  background-color: #f5f5f5;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 2rem 0px;
+}
+
+.kontak {
+  margin: 2rem 0px;
+}
+
+.layanan {
+  margin: 2rem 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: block;
+    justify-content: start;
+    padding: 2rem;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+}
