@@ -1,5 +1,5 @@
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import Navbar from "../../ui/Navbar";
+import Navbar from "../Navbar";
 import Card from "../Card";
 import Product from "../Product";
 import styles from "./Home.module.css";
